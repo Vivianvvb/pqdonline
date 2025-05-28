@@ -1,0 +1,26 @@
+/* DIV*/
+#header{ 
+    display: flexbox;
+    flex-direction: row;
+    background-color: #edede5;
+    align-items: center;
+}
+
+/*HEADER LOGO IMAGE*/
+.logoHeader{
+    width: 50%;
+    height: 50%;
+    background-color: #edede5;
+}
+
+/*BUTTON HEADER*/
+#BtnHeader{
+    margin: 10px 20px 10px 20px;
+    background-color: #edede5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: slategray;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+/*. para class, # para id*/

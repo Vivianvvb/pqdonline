@@ -1,0 +1,23 @@
+/* DIV*/
+#footer{ 
+    display: flexbox;
+    flex-direction: row;
+    background-color: #3ab29c;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px #646cff;
+}
+
+.BtnFooter{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+  
+/*FOOTER LOGO IMAGE*/
+.logoFooter{
+    width: 30%;
+    height: 30%;
+    background-color: #3ab29c;
+}
+
+
