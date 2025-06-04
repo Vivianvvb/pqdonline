@@ -3,10 +3,7 @@ import Header from  '../MainComponents/header.jsx'
 import Footer from '../MainComponents/footer.jsx'
 import {Link} from "react-router-dom"
 import { useState } from "react"
-import FichaProgA from "../../files/fichaProgA.pdf"
-import FichaProgB from "../../files/fichaProgB.pdf"
-import FichaProgC from "../../files/fichaProgC.pdf"
-import FichaProgD from "../../files/fichaProgD.pdf"
+
 
 function FichasProgressao() {
 

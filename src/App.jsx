@@ -2,15 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Header from "../Components/MainComponents/header"
-import Footer from "../Components/MainComponents/footer"
+import Header from "./Components/MainComponents/header"
+import Footer from "./Components/MainComponents/footer"
 import {Link} from 'react-router-dom';
 
-import LogoFundoClaro from "../logos/logoHeader.png";
-import logoAbra from "../logos/logoABRA.png";
-import logoSkyradical from "../logos/logoSkyRadical.png";
-import logoAeroplay from "../logos/logoAeroPlay.png";
-import logoSetor2 from "../logos/logoSetor2.jpg";
+import LogoFundoClaro from "./logos/logoHeader.png";
+import logoAbra from "./logos/logoABRA.png";
+import logoSkyradical from "./logos/logoSkyRadical.png";
+import logoAeroplay from "./logos/logoAeroPlay.png";
+import logoSetor2 from "./logos/logoSetor2.jpg";
 
 function App() {
     return (
