@@ -35,7 +35,7 @@ import FichaProgD from "./files/fichaProgD.pdf"
 //renderização dos componentes
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <BrowserRouter>
+  <BrowserRouter basename="/pqdonline/">
 
   <Routes>
       <Route path="/" element={<App />} />
