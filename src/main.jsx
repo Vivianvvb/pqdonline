@@ -21,17 +21,7 @@ import DicasCanais from './Components/EstudeAqui/DicasCanais.jsx'
 import FichasProgressao from './Components/EstudeAqui/FichasProgressao.jsx'
 import Simulados from './Components/EstudeAqui/Simulados.jsx'
 import SimuladosArray from './Components/EstudeAqui/SimuladosArray.jsx';
-//Provas
-import ProvaAff from "./files/ProvaAff.pdf"
-import ProvaCatA from "./files/ProvaCatA.pdf"
-import ProvaCatB from "./files/ProvaCatB.pdf"
-import ProvaCatC from "./files/ProvaCatC.pdf"
-import ProvaCatD from "./files/ProvaCatD.pdf"
-//Provas
-import FichaProgA from "./files/fichaProgA.pdf"
-import FichaProgB from "./files/fichaProgB.pdf"
-import FichaProgC from "./files/fichaProgC.pdf"
-import FichaProgD from "./files/fichaProgD.pdf"
+
 //renderização dos componentes
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -53,16 +43,6 @@ createRoot(document.getElementById('root')).render(
       <Route path="/Simulados" element={<Simulados />} />    
       <Route path="/SimuladosArray" element={<SimuladosArray />} /> 
 
-      <Route path="/ProvaCatA" element={<ProvaCatA />} /> 
-      <Route path="/ProvaCatB" element={<ProvaCatB />} /> 
-      <Route path="/ProvaCatC" element={<ProvaCatC />} /> 
-      <Route path="/ProvaCatD" element={<ProvaCatD />} /> 
-      <Route path="/ProvAff" element={<ProvaAff />} />    
-
-      <Route path="/FichaProgA" element={<FichaProgA />} /> 
-      <Route path="/FichaProgB" element={<FichaProgB />} /> 
-      <Route path="/FichaProgC" element={<FichaProgC />} /> 
-      <Route path="/FichaProgD" element={<FichaProgD />} /> 
   </Routes> 
 
   </BrowserRouter>  

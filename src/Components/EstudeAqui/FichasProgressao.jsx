@@ -4,6 +4,10 @@ import Footer from '../MainComponents/footer.jsx'
 import {Link} from "react-router-dom"
 import { useState } from "react"
 
+import FichaProgA from "../../files/fichaProgA.pdf"
+import FichaProgB from "../../files/fichaProgB.pdf"
+import FichaProgC from "../../files/fichaProgC.pdf"
+import FichaProgD from "../../files/fichaProgD.pdf"
 
 function FichasProgressao() {
 
@@ -165,10 +169,10 @@ const fichaB = [{
 
         <div className="main_div">
             <h2> Veja aqui as Fichas de Progressão por Categoria. </h2>
-            <Link to= "/FichaProgA" target="_blank"><button id="fichaA">Categoria AI para A</button></Link>
-            <Link to= "/FichaProgB" target="_blank"><button id="fichaB">Categoria A para B</button></Link>
-            <Link to= "/FichaProgC" target="_blank"><button id="FichaC">Categoria B para C</button></Link>
-            <Link to= "/FichaProgD" target="_blank"><button id="FichaD">Categoria C para D</button></Link>
+            <a target="_blank" href={FichaProgA}> <button>Categoria AI para A </button></a>
+            <a target="_blank" href={FichaProgB}> <button>Categoria A para B</button></a>
+            <a target="_blank" href={FichaProgC}><button>Categoria B para C</button></a>
+            <a target="_blank" href={FichaProgD}><button>Categoria C para D</button></a>
         </div>
         <Footer />
         </>

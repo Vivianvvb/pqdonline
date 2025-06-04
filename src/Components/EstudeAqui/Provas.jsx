@@ -1155,12 +1155,12 @@ const verifyAnswer = () => {
 
             <div className="main_div">
                 <h2> Veja aqui as Provas em Branco por Categoria. </h2>
-                <Link to= "/ProvAff" target="_blank"><button id="ProvaAff">Prova AFF</button></Link>
-                <Link to= "/ProvaA" target="_blank"><button id="ProvaA">Prova para Cat A</button></Link>
-                <Link to= "/ProvaB" target="_blank"><button id="ProvaB">Prova para Cat B</button></Link>
-                <Link to= "/ProvaC" target="_blank"><button id="ProvaC">Prova para Cat C</button></Link>
-                <Link to= "/ProvaD" target="_blank"><button id="ProvaD">Prova para Cat D</button></Link>            
-</div>
+                    <a target="_blank" href={ProvaAff}> <button> Prova AFF </button></a>
+                    <a target="_blank" href={ProvaA}> <button> Prova para Cat A </button></a>
+                    <a target="_blank" href={ProvaB}> <button> Prova para Cat B </button></a>
+                    <a target="_blank" href={ProvaC}> <button> Prova para Cat C </button></a>
+                    <a target="_blank" href={ProvaD}> <button> Prova para Cat D </button></a>     
+            </div>
         <Footer />
         </>
     )
